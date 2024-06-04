@@ -8,12 +8,11 @@ on:
 jobs:
   molecule:
     name: Molecule
-    runs-on: [self-hosted]
+    runs-on: [ubuntu-latest]
     strategy:
       matrix:
         scenario:
           - default
-          # - ipv6
           - single_node
           - calico
           - cilium
