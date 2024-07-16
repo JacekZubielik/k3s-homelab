@@ -6,7 +6,7 @@
 #
 ansible-compat==4.1.11
     # via molecule
-ansible-core==2.17.1
+ansible-core==2.17.2
     # via
     #   -r requirements.in
     #   ansible-compat
@@ -164,6 +164,3 @@ wcmatch==8.5
     # via molecule
 websocket-client==1.7.0
     # via kubernetes
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
