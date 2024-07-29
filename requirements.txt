@@ -96,7 +96,7 @@ platformdirs==4.2.2
     # via virtualenv
 pluggy==1.5.0
     # via molecule
-pre-commit==3.7.1
+pre-commit==3.8.0
     # via -r requirements.in
 pre-commit-hooks==4.6.0
     # via -r requirements.in
@@ -164,6 +164,3 @@ wcmatch==8.5
     # via molecule
 websocket-client==1.7.0
     # via kubernetes
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
